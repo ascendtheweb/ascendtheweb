@@ -67,7 +67,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
-// Form submission handling
+// Form submission handling for Netlify Forms
 const contactForm = document.querySelector('form[name="contact"]');
 if (contactForm) {
     contactForm.addEventListener('submit', function(e) {
@@ -77,19 +77,8 @@ if (contactForm) {
         submitBtn.textContent = 'Sending...';
         submitBtn.disabled = true;
         
-        // Simulate form submission (remove this in production)
-        setTimeout(() => {
-            submitBtn.textContent = 'Message Sent!';
-            submitBtn.style.background = '#48bb78';
-            
-            // Reset form
-            setTimeout(() => {
-                this.reset();
-                submitBtn.textContent = originalText;
-                submitBtn.disabled = false;
-                submitBtn.style.background = '';
-            }, 2000);
-        }, 1000);
+        // Let Netlify handle the form submission
+        // The form will redirect to a success page or show a success message
     });
 }
 

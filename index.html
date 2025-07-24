@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ascend Web - Professional Web Design Services</title>
-    <meta name="description" content="Professional web design services. Create stunning, modern websites that drive results with smart workflows and fast delivery.">
+    <meta name="description" content="Professional web design services. Fast, affordable, and high-quality websites that drive results.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
 </head>
 <body>
     <!-- Navigation -->
@@ -20,11 +20,11 @@
             </div>
             <ul class="nav-menu">
                 <li><a href="#home" class="nav-link">Home</a></li>
-                <li><a href="#how-it-works" class="nav-link">How It Works</a></li>
                 <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#how-it-works" class="nav-link">How It Works</a></li>
                 <li><a href="#pricing" class="nav-link">Pricing</a></li>
                 <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
-                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="#contact" class="nav-link cta-nav">Get Free Audit</a></li>
             </ul>
             <div class="hamburger">
                 <span class="bar"></span>
@@ -38,27 +38,77 @@
     <section id="home" class="hero">
         <div class="hero-container">
             <div class="hero-content">
-                <h1 class="hero-title">Fast, Professional Websites That Drive Results</h1>
-                <p class="hero-subtitle">We build stunning, modern websites in days, not weeks. Smart workflows deliver high-quality results at affordable prices.</p>
+                <h1 class="hero-title">Get a Professional Website in Days, Not Weeks</h1>
+                <p class="hero-subtitle">Stop overpaying for slow, complicated web design. We deliver fast, high-quality websites that actually work - at prices that make sense.</p>
                 <div class="hero-buttons">
-                    <a href="#contact" class="btn btn-primary">Start Your Project</a>
+                    <a href="#contact" class="btn btn-primary">Get Free Audit</a>
                     <a href="#how-it-works" class="btn btn-secondary">See How It Works</a>
                 </div>
             </div>
             <div class="hero-image">
-                <div class="hero-graphic">
-                    <div class="floating-card card-1">
-                        <i class="fas fa-rocket"></i>
-                        <span>Fast Delivery</span>
+                <svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="50" y="50" width="300" height="200" rx="8" fill="#E5E7EB"/>
+                    <rect x="70" y="70" width="260" height="40" rx="4" fill="#2D7FF9"/>
+                    <rect x="70" y="130" width="120" height="80" rx="4" fill="#F9FAFB"/>
+                    <rect x="210" y="130" width="120" height="80" rx="4" fill="#F9FAFB"/>
+                    <circle cx="130" cy="170" r="15" fill="#2D7FF9"/>
+                    <rect x="230" y="150" width="80" height="8" rx="4" fill="#2D7FF9"/>
+                    <rect x="230" y="170" width="60" height="8" rx="4" fill="#2D7FF9"/>
+                    <rect x="230" y="190" width="70" height="8" rx="4" fill="#2D7FF9"/>
+                </svg>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>What We Deliver</h2>
+                <p>Comprehensive web solutions that drive real business results</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i data-feather="smartphone"></i>
                     </div>
-                    <div class="floating-card card-2">
-                        <i class="fas fa-star"></i>
-                        <span>Premium Quality</span>
+                    <h3>Mobile-First Design</h3>
+                    <p>Every website we build works perfectly on phones, tablets, and desktops. No exceptions.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i data-feather="search"></i>
                     </div>
-                    <div class="floating-card card-3">
-                        <i class="fas fa-dollar-sign"></i>
-                        <span>Affordable Pricing</span>
+                    <h3>SEO Optimization</h3>
+                    <p>Built-in search engine optimization so your website actually gets found by potential customers.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i data-feather="zap"></i>
                     </div>
+                    <h3>Lightning Fast Speed</h3>
+                    <p>Optimized for speed and performance. Your visitors won't wait around for slow-loading pages.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i data-feather="edit-3"></i>
+                    </div>
+                    <h3>Content Assistance</h3>
+                    <p>We help you create compelling content that converts visitors into paying customers.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i data-feather="shield"></i>
+                    </div>
+                    <h3>Security & Reliability</h3>
+                    <p>Enterprise-level security and 99.9% uptime guarantee. Your business stays protected.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i data-feather="headphones"></i>
+                    </div>
+                    <h3>Ongoing Support</h3>
+                    <p>We don't just build and leave. Get ongoing support and updates to keep your site performing.</p>
                 </div>
             </div>
         </div>
@@ -69,62 +119,35 @@
         <div class="container">
             <div class="section-header">
                 <h2>How It Works</h2>
-                <p>Our proven 3-step process delivers your website quickly and efficiently</p>
+                <p>Our streamlined process gets your website live in record time</p>
             </div>
             <div class="steps-container">
                 <div class="step">
-                    <div class="step-number">1</div>
+                    <div class="step-icon">
+                        <i data-feather="search"></i>
+                    </div>
                     <div class="step-content">
                         <h3>Discovery</h3>
-                        <p>We understand your business goals, target audience, and brand identity to create a strategic plan for your website.</p>
+                        <p>We analyze your business, competitors, and goals to create a strategic website plan that converts visitors into customers.</p>
                     </div>
                 </div>
                 <div class="step">
-                    <div class="step-number">2</div>
+                    <div class="step-icon">
+                        <i data-feather="code"></i>
+                    </div>
                     <div class="step-content">
                         <h3>Build</h3>
-                        <p>Our expert team builds your website using modern technologies and smart workflows to ensure quality and speed.</p>
+                        <p>Our expert team builds your website using modern technologies, ensuring it's fast, secure, and optimized for all devices.</p>
                     </div>
                 </div>
                 <div class="step">
-                    <div class="step-number">3</div>
+                    <div class="step-icon">
+                        <i data-feather="rocket"></i>
+                    </div>
                     <div class="step-content">
                         <h3>Launch</h3>
-                        <p>We thoroughly test and launch your website, then provide ongoing support to ensure it performs perfectly.</p>
+                        <p>We thoroughly test everything, launch your site, and provide ongoing support to keep it performing at its best.</p>
                     </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Services Section -->
-    <section id="services" class="services">
-        <div class="container">
-            <div class="section-header">
-                <h2>Simple Packages</h2>
-                <p>Choose the perfect package for your business needs</p>
-            </div>
-            <div class="services-grid">
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-rocket"></i>
-                    </div>
-                    <h3>Starter Package</h3>
-                    <p>Perfect for small businesses and startups. Get a professional website quickly and affordably.</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h3>Pro Package</h3>
-                    <p>Ideal for growing businesses. Advanced features and optimization for better results.</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-crown"></i>
-                    </div>
-                    <h3>Custom Package</h3>
-                    <p>Tailored solutions for established businesses. Everything you need for maximum impact.</p>
                 </div>
             </div>
         </div>
@@ -134,8 +157,8 @@
     <section id="pricing" class="pricing">
         <div class="container">
             <div class="section-header">
-                <h2>Transparent Pricing</h2>
-                <p>No hidden fees, no surprises. Just quality websites at fair prices.</p>
+                <h2>Simple, Transparent Pricing</h2>
+                <p>No hidden fees, no surprises. Choose the plan that fits your business.</p>
             </div>
             <div class="pricing-grid">
                 <div class="pricing-card">
@@ -148,17 +171,17 @@
                         </div>
                     </div>
                     <ul class="pricing-features">
-                        <li><i class="fas fa-check"></i> 5-page professional website</li>
-                        <li><i class="fas fa-check"></i> Mobile-responsive design</li>
-                        <li><i class="fas fa-check"></i> Basic SEO setup</li>
-                        <li><i class="fas fa-check"></i> Contact form</li>
-                        <li><i class="fas fa-check"></i> 2 rounds of revisions</li>
-                        <li><i class="fas fa-check"></i> 30 days of support</li>
+                        <li><i data-feather="check"></i> 5-page professional website</li>
+                        <li><i data-feather="check"></i> Mobile-responsive design</li>
+                        <li><i data-feather="check"></i> Basic SEO setup</li>
+                        <li><i data-feather="check"></i> Contact form</li>
+                        <li><i data-feather="check"></i> 2 rounds of revisions</li>
+                        <li><i data-feather="check"></i> 30 days of support</li>
                     </ul>
                     <a href="#contact" class="btn btn-outline">Get Started</a>
                 </div>
                 <div class="pricing-card featured">
-                    <div class="pricing-badge">Most Popular</div>
+                    <div class="pricing-badge">Best Value</div>
                     <div class="pricing-header">
                         <h3>Pro</h3>
                         <div class="price">
@@ -168,20 +191,20 @@
                         </div>
                     </div>
                     <ul class="pricing-features">
-                        <li><i class="fas fa-check"></i> 10-page professional website</li>
-                        <li><i class="fas fa-check"></i> Advanced SEO optimization</li>
-                        <li><i class="fas fa-check"></i> Blog integration</li>
-                        <li><i class="fas fa-check"></i> Social media integration</li>
-                        <li><i class="fas fa-check"></i> Analytics setup</li>
-                        <li><i class="fas fa-check"></i> 3 rounds of revisions</li>
-                        <li><i class="fas fa-check"></i> 90 days of support</li>
-                        <li><i class="fas fa-check"></i> Performance optimization</li>
+                        <li><i data-feather="check"></i> 10-page professional website</li>
+                        <li><i data-feather="check"></i> Advanced SEO optimization</li>
+                        <li><i data-feather="check"></i> Blog integration</li>
+                        <li><i data-feather="check"></i> Social media integration</li>
+                        <li><i data-feather="check"></i> Analytics setup</li>
+                        <li><i data-feather="check"></i> 3 rounds of revisions</li>
+                        <li><i data-feather="check"></i> 90 days of support</li>
+                        <li><i data-feather="check"></i> Performance optimization</li>
                     </ul>
                     <a href="#contact" class="btn btn-primary">Get Started</a>
                 </div>
                 <div class="pricing-card">
                     <div class="pricing-header">
-                        <h3>Custom</h3>
+                        <h3>Let's Talk</h3>
                         <div class="price">
                             <span class="currency">$</span>
                             <span class="amount">9,999</span>
@@ -189,16 +212,16 @@
                         </div>
                     </div>
                     <ul class="pricing-features">
-                        <li><i class="fas fa-check"></i> Unlimited pages</li>
-                        <li><i class="fas fa-check"></i> E-commerce integration</li>
-                        <li><i class="fas fa-check"></i> Custom functionality</li>
-                        <li><i class="fas fa-check"></i> Advanced analytics</li>
-                        <li><i class="fas fa-check"></i> Priority support</li>
-                        <li><i class="fas fa-check"></i> Unlimited revisions</li>
-                        <li><i class="fas fa-check"></i> 1 year of support</li>
-                        <li><i class="fas fa-check"></i> Ongoing optimization</li>
+                        <li><i data-feather="check"></i> Unlimited pages</li>
+                        <li><i data-feather="check"></i> E-commerce integration</li>
+                        <li><i data-feather="check"></i> Custom functionality</li>
+                        <li><i data-feather="check"></i> Advanced analytics</li>
+                        <li><i data-feather="check"></i> Priority support</li>
+                        <li><i data-feather="check"></i> Unlimited revisions</li>
+                        <li><i data-feather="check"></i> 1 year of support</li>
+                        <li><i data-feather="check"></i> Ongoing optimization</li>
                     </ul>
-                    <a href="#contact" class="btn btn-outline">Get Quote</a>
+                    <a href="#contact" class="btn btn-outline">Let's Talk</a>
                 </div>
             </div>
         </div>
@@ -214,7 +237,7 @@
             <div class="testimonials-grid">
                 <div class="testimonial-card">
                     <div class="testimonial-content">
-                        <p>"Ascend Web delivered our website in just 5 days! The quality exceeded our expectations and the process was incredibly smooth."</p>
+                        <p>"Ascend Web delivered our website in just 5 days! The quality exceeded our expectations and the process was incredibly smooth. Our leads increased by 40% in the first month."</p>
                     </div>
                     <div class="testimonial-author">
                         <div class="author-info">
@@ -225,23 +248,12 @@
                 </div>
                 <div class="testimonial-card">
                     <div class="testimonial-content">
-                        <p>"Professional, fast, and affordable. They built our website using smart workflows that saved us time and money."</p>
+                        <p>"Professional, fast, and affordable. They built our website using smart workflows that saved us time and money. The ongoing support has been exceptional."</p>
                     </div>
                     <div class="testimonial-author">
                         <div class="author-info">
                             <h4>Michael Chen</h4>
                             <span>Founder, Creative Agency</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-card">
-                    <div class="testimonial-content">
-                        <p>"The team at Ascend Web is amazing. They delivered a high-quality website quickly and the ongoing support has been excellent."</p>
-                    </div>
-                    <div class="testimonial-author">
-                        <div class="author-info">
-                            <h4>Emily Rodriguez</h4>
-                            <span>Marketing Director, GrowthCo</span>
                         </div>
                     </div>
                 </div>
@@ -258,25 +270,23 @@
                     <p>Let's discuss your project and get your professional website built quickly and affordably.</p>
                     <div class="contact-details">
                         <div class="contact-item">
-                            <i class="fas fa-envelope"></i>
-                            <span>hello@ascendweb.com</span>
+                            <i data-feather="mail"></i>
+                            <span>ascendweb@protonmail.com</span>
                         </div>
                         <div class="contact-item">
-                            <i class="fas fa-phone"></i>
-                            <span>+1 (555) 123-4567</span>
+                            <i data-feather="message-circle"></i>
+                            <span>+353 85 261 0626 (SMS only)</span>
                         </div>
                         <div class="contact-item">
-                            <i class="fas fa-clock"></i>
+                            <i data-feather="clock"></i>
                             <span>Mon-Fri 9AM-6PM EST</span>
                         </div>
                     </div>
                 </div>
                 <div class="contact-form">
-                    <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
-                        <input type="hidden" name="form-name" value="contact" />
-                        <p class="hidden">
-                            <label>Don't fill this out if you're human: <input name="bot-field" /></label>
-                        </p>
+                    <h3>Get Your Free Website Audit</h3>
+                    <p>Tell us about your project and we'll provide a free consultation with actionable recommendations.</p>
+                    <form name="contact" method="POST" data-netlify="true">
                         <div class="form-group">
                             <input type="text" name="name" placeholder="Your Name" required>
                         </div>
@@ -284,21 +294,9 @@
                             <input type="email" name="email" placeholder="Your Email" required>
                         </div>
                         <div class="form-group">
-                            <input type="text" name="company" placeholder="Company Name">
-                        </div>
-                        <div class="form-group">
-                            <select name="service" required>
-                                <option value="">Select Service</option>
-                                <option value="starter">Starter Package</option>
-                                <option value="pro">Pro Package</option>
-                                <option value="custom">Custom Solution</option>
-                                <option value="consultation">Consultation</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
                             <textarea name="message" placeholder="Tell us about your project..." rows="5" required></textarea>
                         </div>
-                        <button type="submit" class="btn btn-primary">Send Message</button>
+                        <button type="submit" class="btn btn-primary">Get Free Audit</button>
                     </form>
                 </div>
             </div>
@@ -313,11 +311,12 @@
                     <h3>Ascend Web</h3>
                     <p>Professional web design that delivers results. Fast, affordable, and high-quality websites for your business.</p>
                     <div class="social-links">
-                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i data-feather="linkedin"></i></a>
+                        <a href="#" aria-label="Twitter"><i data-feather="twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i data-feather="instagram"></i></a>
+                        <a href="#" aria-label="Facebook"><i data-feather="facebook"></i></a>
                     </div>
+                    <a href="#contact" class="btn btn-primary footer-cta">Get Free Audit</a>
                 </div>
                 <div class="footer-section">
                     <h4>Services</h4>
@@ -340,9 +339,8 @@
                 <div class="footer-section">
                     <h4>Contact</h4>
                     <div class="footer-contact">
-                        <p><i class="fas fa-envelope"></i> hello@ascendweb.com</p>
-                        <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
-                        <p><i class="fas fa-map-marker-alt"></i> New York, NY</p>
+                        <p><i data-feather="mail"></i> ascendweb@protonmail.com</p>
+                        <p><i data-feather="message-circle"></i> +353 85 261 0626 (SMS only)</p>
                     </div>
                 </div>
             </div>
@@ -352,6 +350,39 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script>
+        // Initialize Feather icons
+        feather.replace();
+        
+        // Mobile navigation toggle
+        const hamburger = document.querySelector('.hamburger');
+        const navMenu = document.querySelector('.nav-menu');
+        
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navMenu.classList.toggle('active');
+        });
+        
+        // Close mobile menu when clicking on a link
+        document.querySelectorAll('.nav-link').forEach(n => n.addEventListener('click', () => {
+            hamburger.classList.remove('active');
+            navMenu.classList.remove('active');
+        }));
+        
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    const offsetTop = target.offsetTop - 80;
+                    window.scrollTo({
+                        top: offsetTop,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
 </body>
 </html> 
