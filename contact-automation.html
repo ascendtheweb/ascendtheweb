@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automation-Ready Site - Ascend Web</title>
+    <meta name="description" content="Integrate calendars and workflows with Ascend Web automation-ready solutions.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html" style="text-decoration: none; color: inherit;">
+                    <h2>Ascend Web</h2>
+                </a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="index.html#services" class="nav-link">Services</a></li>
+                <li><a href="index.html#how-it-works" class="nav-link">How It Works</a></li>
+                <li><a href="index.html#pricing" class="nav-link">Pricing</a></li>
+                <li><a href="index.html#testimonials" class="nav-link">Testimonials</a></li>
+                <li><a href="contact.html" class="nav-link cta-nav">Contact Us</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contact Page Header -->
+    <section class="contact-header automation-header">
+        <div class="container">
+            <div class="contact-header-content">
+                <h1>Automation-Ready Inquiry</h1>
+                <p>Integrate calendars and workflows—share your requirements and I'll connect the dots.</p>
+                <div class="contact-info-summary">
+                    <div class="contact-summary-item">
+                        <i data-feather="mail"></i>
+                        <span>ascendweb@protonmail.com</span>
+                    </div>
+                    <div class="contact-summary-item">
+                        <i data-feather="message-circle"></i>
+                        <span>+353 85 261 0626 (SMS only)</span>
+                    </div>
+                    <div class="contact-summary-item">
+                        <i data-feather="clock"></i>
+                        <span>Mon-Fri 9AM-6PM EST</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="contact-form-section">
+        <div class="container">
+            <div class="contact-form-container">
+                <div class="form-wrapper">
+                    <h2>Project Details</h2>
+                    <p>Fill out the form below and I'll get back to you within 24 hours with a personalized proposal.</p>
+                    
+                    <form name="contact" method="POST" data-netlify="true" class="contact-form-page">
+                        <input type="hidden" name="form-name" value="contact">
+                        <input type="hidden" name="package" value="Automation-Ready Site">
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Full Name *</label>
+                                <input type="text" id="name" name="name" placeholder="Your full name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" placeholder="+1 (555) 123-4567">
+                            </div>
+                            <div class="form-group">
+                                <label for="company">Company Name</label>
+                                <input type="text" id="company" name="company" placeholder="Your company name">
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="website">Current Website (if any)</label>
+                            <input type="url" id="website" name="website" placeholder="https://yourwebsite.com">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="budget">Budget Range</label>
+                            <select id="budget" name="budget">
+                                <option value="">Select budget range</option>
+                                <option value="€100-€300">€100 - €300</option>
+                                <option value="€300-€500">€300 - €500</option>
+                                <option value="€500-€1000">€500 - €1000</option>
+                                <option value="€1000-€2500">€1000 - €2500</option>
+                                <option value="€2500+">€2500+</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="timeline">Project Timeline</label>
+                            <select id="timeline" name="timeline">
+                                <option value="">Select timeline</option>
+                                <option value="ASAP">ASAP</option>
+                                <option value="1-2 weeks">1-2 weeks</option>
+                                <option value="1 month">1 month</option>
+                                <option value="2-3 months">2-3 months</option>
+                                <option value="No rush">No rush</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Project Details *</label>
+                            <textarea id="message" name="message" placeholder="Tell me about your project" required></textarea>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="newsletter" value="yes">
+                                <span class="checkmark"></span>
+                                I'd like to receive updates about web design tips and special offers
+                            </label>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary submit-btn">Submit</button>
+                    </form>
+                </div>
+                
+                <div class="contact-sidebar">
+                    <div class="sidebar-card">
+                        <h3>Automation-Ready Site</h3>
+                        <ul class="benefits-list">
+                            <li><i data-feather="check"></i> 25+ page professional website</li>
+                            <li><i data-feather="check"></i> Advanced automation systems</li>
+                            <li><i data-feather="check"></i> CRM integration</li>
+                            <li><i data-feather="check"></i> Advanced analytics & reporting</li>
+                            <li><i data-feather="check"></i> Custom functionality</li>
+                            <li><i data-feather="check"></i> API integrations</li>
+                            <li><i data-feather="check"></i> Unlimited revisions</li>
+                            <li><i data-feather="check"></i> 1 year of support</li>
+                        </ul>
+                        <div class="package-price">
+                            <span class="price-amount">€2,499</span>
+                            <span class="price-period">from</span>
+                        </div>
+                    </div>
+                    
+                    <div class="sidebar-card">
+                        <h3>What Happens Next?</h3>
+                        <div class="process-steps">
+                            <div class="process-step">
+                                <div class="step-number">1</div>
+                                <div class="step-content">
+                                    <h4>Automation Planning</h4>
+                                    <p>I'll analyze your workflows and design the perfect automation strategy</p>
+                                </div>
+                            </div>
+                            <div class="process-step">
+                                <div class="step-number">2</div>
+                                <div class="step-content">
+                                    <h4>System Integration</h4>
+                                    <p>Your automation-ready site will be built with seamless integrations</p>
+                                </div>
+                            </div>
+                            <div class="process-step">
+                                <div class="step-number">3</div>
+                                <div class="step-content">
+                                    <h4>Launch & Optimize</h4>
+                                    <p>Your automated system goes live with 1 year of support included</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Ascend Web</h3>
+                    <p>Professional web design that delivers results. Fast, affordable, and high-quality websites for your business.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="LinkedIn"><i data-feather="linkedin"></i></a>
+                        <a href="#" aria-label="Twitter"><i data-feather="twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i data-feather="instagram"></i></a>
+                        <a href="#" aria-label="Facebook"><i data-feather="facebook"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="index.html#services">Web Design</a></li>
+                        <li><a href="index.html#services">E-commerce</a></li>
+                        <li><a href="index.html#services">SEO Optimization</a></li>
+                        <li><a href="index.html#services">Performance</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="index.html#how-it-works">How It Works</a></li>
+                        <li><a href="index.html#pricing">Pricing</a></li>
+                        <li><a href="index.html#testimonials">Testimonials</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <div class="footer-contact">
+                        <p><i data-feather="mail"></i> ascendweb@protonmail.com</p>
+                        <p><i data-feather="message-circle"></i> +353 85 261 0626 (SMS only)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Ascend Web. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Initialize Feather icons
+        feather.replace();
+        
+        // Mobile navigation toggle
+        const hamburger = document.querySelector('.hamburger');
+        const navMenu = document.querySelector('.nav-menu');
+        
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navMenu.classList.toggle('active');
+        });
+        
+        // Close mobile menu when clicking on a link
+        document.querySelectorAll('.nav-link').forEach(n => n.addEventListener('click', () => {
+            hamburger.classList.remove('active');
+            navMenu.classList.remove('active');
+        }));
+    </script>
+</body>
+</html> 

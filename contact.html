@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Ascend Web</title>
+    <meta name="description" content="Get in touch with Ascend Web for professional web design services. Fast, affordable, and high-quality websites.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html" style="text-decoration: none; color: inherit;">
+                    <h2>Ascend Web</h2>
+                </a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="index.html#services" class="nav-link">Services</a></li>
+                <li><a href="index.html#how-it-works" class="nav-link">How It Works</a></li>
+                <li><a href="index.html#pricing" class="nav-link">Pricing</a></li>
+                <li><a href="index.html#testimonials" class="nav-link">Testimonials</a></li>
+                <li><a href="contact.html" class="nav-link cta-nav">Contact Us</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contact Page Header -->
+    <section class="contact-header">
+        <div class="container">
+            <div class="contact-header-content">
+                <h1>Get Your Free Website Audit</h1>
+                <p>Tell us about your project and we'll provide a free consultation with actionable recommendations.</p>
+                <div class="contact-info-summary">
+                    <div class="contact-summary-item">
+                        <i data-feather="mail"></i>
+                        <span>ascendweb@protonmail.com</span>
+                    </div>
+                    <div class="contact-summary-item">
+                        <i data-feather="message-circle"></i>
+                        <span>+353 85 261 0626 (SMS only)</span>
+                    </div>
+                    <div class="contact-summary-item">
+                        <i data-feather="clock"></i>
+                        <span>Mon-Fri 9AM-6PM EST</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="contact-form-section">
+        <div class="container">
+            <div class="contact-form-container">
+                <div class="form-wrapper">
+                    <h2>Project Details</h2>
+                    <p>Fill out the form below and we'll get back to you within 24 hours with a personalized proposal.</p>
+                    
+                    <form name="contact" method="POST" data-netlify="true" class="contact-form-page">
+                        <input type="hidden" name="package" id="package-field" value="">
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Full Name *</label>
+                                <input type="text" id="name" name="name" placeholder="Your full name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" placeholder="+1 (555) 123-4567">
+                            </div>
+                            <div class="form-group">
+                                <label for="company">Company Name</label>
+                                <input type="text" id="company" name="company" placeholder="Your company name">
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="website">Current Website (if any)</label>
+                            <input type="url" id="website" name="website" placeholder="https://yourwebsite.com">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="budget">Budget Range</label>
+                            <select id="budget" name="budget">
+                                <option value="">Select budget range</option>
+                                <option value="€100-€300">€100 - €300</option>
+                                <option value="€300-€500">€300 - €500</option>
+                                <option value="€500-€1000">€500 - €1000</option>
+                                <option value="€1000-€2500">€1000 - €2500</option>
+                                <option value="€2500+">€2500+</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="timeline">Project Timeline</label>
+                            <select id="timeline" name="timeline">
+                                <option value="">Select timeline</option>
+                                <option value="ASAP">ASAP</option>
+                                <option value="1-2 weeks">1-2 weeks</option>
+                                <option value="1 month">1 month</option>
+                                <option value="2-3 months">2-3 months</option>
+                                <option value="No rush">No rush</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Project Details *</label>
+                            <textarea id="message" name="message" placeholder="Tell us about your project, goals, and any specific requirements..." rows="6" required></textarea>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="newsletter" value="yes">
+                                <span class="checkmark"></span>
+                                I'd like to receive updates about web design tips and special offers
+                            </label>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary submit-btn">Send Message</button>
+                    </form>
+                </div>
+                
+                <div class="contact-sidebar">
+                    <div class="sidebar-card">
+                        <h3>Why Choose Ascend Web?</h3>
+                        <ul class="benefits-list">
+                            <li><i data-feather="check"></i> Fast turnaround (5-10 days)</li>
+                            <li><i data-feather="check"></i> Mobile-first responsive design</li>
+                            <li><i data-feather="check"></i> SEO optimized from day one</li>
+                            <li><i data-feather="check"></i> Ongoing support included</li>
+                            <li><i data-feather="check"></i> Transparent pricing</li>
+                            <li><i data-feather="check"></i> 100% satisfaction guarantee</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="sidebar-card">
+                        <h3>What Happens Next?</h3>
+                        <div class="process-steps">
+                            <div class="process-step">
+                                <div class="step-number">1</div>
+                                <div class="step-content">
+                                    <h4>Free Consultation</h4>
+                                    <p>We'll review your requirements and provide a detailed proposal</p>
+                                </div>
+                            </div>
+                            <div class="process-step">
+                                <div class="step-number">2</div>
+                                <div class="step-content">
+                                    <h4>Project Planning</h4>
+                                    <p>We'll create a project timeline and start the design process</p>
+                                </div>
+                            </div>
+                            <div class="process-step">
+                                <div class="step-number">3</div>
+                                <div class="step-content">
+                                    <h4>Launch & Support</h4>
+                                    <p>Your website goes live with ongoing support and maintenance</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Ascend Web</h3>
+                    <p>Professional web design that delivers results. Fast, affordable, and high-quality websites for your business.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="LinkedIn"><i data-feather="linkedin"></i></a>
+                        <a href="#" aria-label="Twitter"><i data-feather="twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i data-feather="instagram"></i></a>
+                        <a href="#" aria-label="Facebook"><i data-feather="facebook"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="index.html#services">Web Design</a></li>
+                        <li><a href="index.html#services">E-commerce</a></li>
+                        <li><a href="index.html#services">SEO Optimization</a></li>
+                        <li><a href="index.html#services">Performance</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="index.html#how-it-works">How It Works</a></li>
+                        <li><a href="index.html#pricing">Pricing</a></li>
+                        <li><a href="index.html#testimonials">Testimonials</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <div class="footer-contact">
+                        <p><i data-feather="mail"></i> ascendweb@protonmail.com</p>
+                        <p><i data-feather="message-circle"></i> +353 85 261 0626 (SMS only)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Ascend Web. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Initialize Feather icons
+        feather.replace();
+        
+        // Mobile navigation toggle
+        const hamburger = document.querySelector('.hamburger');
+        const navMenu = document.querySelector('.nav-menu');
+        
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navMenu.classList.toggle('active');
+        });
+        
+        // Close mobile menu when clicking on a link
+        document.querySelectorAll('.nav-link').forEach(n => n.addEventListener('click', () => {
+            hamburger.classList.remove('active');
+            navMenu.classList.remove('active');
+        }));
+        
+        // Handle package selection from URL parameters
+        function getUrlParameter(name) {
+            name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+            var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+            var results = regex.exec(location.search);
+            return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+        }
+        
+        // Set package field if package parameter exists in URL
+        const packageParam = getUrlParameter('package');
+        if (packageParam) {
+            const packageField = document.getElementById('package-field');
+            if (packageField) {
+                packageField.value = packageParam;
+            }
+        }
+    </script>
+</body>
+</html> 
