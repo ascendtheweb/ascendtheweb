@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You - Ascend Web</title>
+    <meta name="description" content="Thank you for your submission. Your audit is on its way!">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html" style="text-decoration: none; color: inherit;">
+                    <h2>Ascend Web</h2>
+                </a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="index.html#services" class="nav-link">Services</a></li>
+                <li><a href="index.html#how-it-works" class="nav-link">How It Works</a></li>
+                <li><a href="index.html#pricing" class="nav-link">Pricing</a></li>
+                <li><a href="index.html#testimonials" class="nav-link">Testimonials</a></li>
+                <li><a href="contact.html" class="nav-link cta-nav">Contact Us</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Thank You Section -->
+    <section class="thank-you-section">
+        <div class="container">
+            <div class="thank-you-content">
+                <div class="success-icon">
+                    <i data-feather="check-circle"></i>
+                </div>
+                <h1>Thanks for Your Submission!</h1>
+                <p class="subtitle">Your audit is on its way—check your inbox shortly.</p>
+                
+                <div class="next-steps">
+                    <h3>What happens next?</h3>
+                    <div class="steps-list">
+                        <div class="step-item">
+                            <div class="step-number">1</div>
+                            <div class="step-text">
+                                <h4>Check Your Email</h4>
+                                <p>You'll receive your free 5-point website audit within 24 hours</p>
+                            </div>
+                        </div>
+                        <div class="step-item">
+                            <div class="step-number">2</div>
+                            <div class="step-text">
+                                <h4>Review the Insights</h4>
+                                <p>Go through each point and identify areas for improvement</p>
+                            </div>
+                        </div>
+                        <div class="step-item">
+                            <div class="step-number">3</div>
+                            <div class="step-text">
+                                <h4>Take Action</h4>
+                                <p>Ready to implement? We can help you build a better website</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cta-section">
+                    <h3>Ready for your website build?</h3>
+                    <p>Let's turn those audit insights into a high-converting website</p>
+                    <div class="cta-buttons">
+                        <a href="mailto:ascendweb@proton.me" class="btn btn-primary">Book a Call</a>
+                        <a href="index.html" class="btn btn-secondary">Back to Home</a>
+                    </div>
+                </div>
+
+                <div class="contact-info">
+                    <p><i data-feather="mail"></i> ascendweb@proton.me</p>
+                    <p><i data-feather="message-circle"></i> +353 85 261 0626 (SMS only)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Ascend Web</h3>
+                    <p>Professional web design that delivers results. Fast, affordable, and high-quality websites for your business.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="LinkedIn"><i data-feather="linkedin"></i></a>
+                        <a href="#" aria-label="Twitter"><i data-feather="twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i data-feather="instagram"></i></a>
+                        <a href="#" aria-label="Facebook"><i data-feather="facebook"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="index.html#services">Web Design</a></li>
+                        <li><a href="index.html#services">E-commerce</a></li>
+                        <li><a href="index.html#services">SEO Optimization</a></li>
+                        <li><a href="index.html#services">Performance</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="index.html#how-it-works">How It Works</a></li>
+                        <li><a href="index.html#pricing">Pricing</a></li>
+                        <li><a href="index.html#testimonials">Testimonials</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <div class="footer-contact">
+                        <p><i data-feather="mail"></i> ascendweb@proton.me</p>
+                        <p><i data-feather="message-circle"></i> +353 85 261 0626 (SMS only)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Ascend Web. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Initialize Feather icons
+        feather.replace();
+        
+        // Mobile navigation toggle
+        const hamburger = document.querySelector('.hamburger');
+        const navMenu = document.querySelector('.nav-menu');
+        
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navMenu.classList.toggle('active');
+        });
+        
+        // Close mobile menu when clicking on a link
+        document.querySelectorAll('.nav-link').forEach(n => n.addEventListener('click', () => {
+            hamburger.classList.remove('active');
+            navMenu.classList.remove('active');
+        }));
+    </script>
+</body>
+</html> 

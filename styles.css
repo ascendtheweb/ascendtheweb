@@ -1061,6 +1061,142 @@ p {
     font-weight: 400;
 }
 
+/* Thank You Page Styles */
+.thank-you-section {
+    background: #F9FAFB;
+    padding: 120px 0 80px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.thank-you-content {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.success-icon {
+    margin-bottom: 2rem;
+}
+
+.success-icon svg {
+    width: 80px;
+    height: 80px;
+    color: #10B981;
+}
+
+.thank-you-content h1 {
+    color: #1A1A1A;
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.subtitle {
+    color: #4A5568;
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+    font-weight: 400;
+}
+
+.next-steps {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    border: 1px solid #E5E7EB;
+    margin-bottom: 3rem;
+}
+
+.next-steps h3 {
+    color: #1A1A1A;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+}
+
+.steps-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.step-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    text-align: left;
+}
+
+.step-number {
+    width: 32px;
+    height: 32px;
+    background: #2D7FF9;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 0.875rem;
+    flex-shrink: 0;
+}
+
+.step-text h4 {
+    color: #1A1A1A;
+    margin-bottom: 0.25rem;
+    font-weight: 600;
+}
+
+.step-text p {
+    color: #4A5568;
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+.cta-section {
+    margin-bottom: 3rem;
+}
+
+.cta-section h3 {
+    color: #1A1A1A;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+}
+
+.cta-section p {
+    color: #4A5568;
+    margin-bottom: 2rem;
+}
+
+.cta-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.contact-info p {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #4A5568;
+    margin: 0;
+}
+
+.contact-info svg {
+    color: #2D7FF9;
+    width: 16px;
+    height: 16px;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .hamburger {
